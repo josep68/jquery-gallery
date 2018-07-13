@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  height: 80%;
+  width: 80%;
+  border: 4px solid white;
+  position: relative;
+  box-shadow: 0px 0px 26px 0px rgba(55, 50, 50, 0.75);
+}
+img {
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+i {
+  color: white;
+  position: absolute;
+  cursor: pointer;
+}
+.fa-angle-left {
+  right: 85%;
+}
+.fa-angle-right {
+  left: 85%;
+}
+.active {
+  display: block;
+  transition: 1s;
+}
